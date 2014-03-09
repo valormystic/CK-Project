@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Testing</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="greeting">Welcome!
+        This application is your tool to discover all you want about us and our shitty band!
+        Try not to over endulge!</string>
+
+</resources>

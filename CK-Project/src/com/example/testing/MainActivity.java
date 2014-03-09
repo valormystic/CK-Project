@@ -2,14 +2,17 @@ package com.example.testing;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 
 public class MainActivity extends Activity {
 
+	
 	Button mNextPage;
 	
 	@Override
@@ -23,7 +26,9 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Toast.makeText(getApplicationContext(), "Apples", Toast.LENGTH_SHORT).show();
+				Toast.makeText(getApplicationContext(), "Videos", Toast.LENGTH_SHORT).show();
+				Intent i = new Intent (MainActivity.this, SecondActivity.class);
+				startActivity(i);
 			}
 		});
 	}
